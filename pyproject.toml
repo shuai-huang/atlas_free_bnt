@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-free-bnt"
+version = "0.1.0"
+description = "Atlas-free Brain Network Transformer reference implementation"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "scikit-learn", "torch"]
