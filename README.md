@@ -3,11 +3,11 @@
 Python implementation for the paper **[Atlas-free Brain Network Transformer](https://arxiv.org/pdf/2510.03306)**, supporting:
 
 - **Sex classification** (`--task cls`)
-- **Brain-age regression** (`--task reg`)
+- **Brain-age prediction** (`--task reg`)
 
 * If you use this code and find it helpful, please cite the above paper. Thanks :smile:
 ```
-@article{huang2025atlas,
+@article{huang2025atlas_free,
   title={Atlas-free Brain Network Transformer},
   author={Huang, Shuai and Kan, Xuan and Lah, James J and Qiu, Deqiang},
   journal={arXiv preprint arXiv:2510.03306},
@@ -73,7 +73,7 @@ python train.py \
   --save-preds
 ```
 
-Brain-age regression example:
+Brain-age prediction example:
 
 ```bash
 python train.py \
